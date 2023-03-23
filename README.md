@@ -27,7 +27,7 @@ SO THAT I can reliably retrieve them for later use
 This application is deployed to [Heroku](https://a-good-text-editor.herokuapp.com/)
 
 ## Application Screenshot
-- WHEN I open my application in my editor, THEN I see a client server folder structure.
+- WHEN I open my application in my editor, THEN I see a client server folder structure.</br>
 ![Application Screenshot](asset/images/picture1.png)
 
 - WHEN I run `npm run start` from the root directory, THEN I find that my application should start up the backend and serve the client. </br>
