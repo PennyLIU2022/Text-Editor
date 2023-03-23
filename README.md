@@ -19,34 +19,42 @@ SO THAT I can reliably retrieve them for later use
 
 ## Installation
 - Install required node pacakges by running:
-    ```bash
+    ```
     npm run install
-    ```
-- To run the code below, you will find the application start up the backend and serve the client.
-    ```
-    npm run start
-    ```
-- When you enter the code below, you will find that the JavaScript files have been bundled using webpack, and a HTML file, service worker, and a manifest file are generated.
-    ```
-    npm run build
     ```
 
 ## Heroku Link
 This application is deployed to [Heroku](https://a-good-text-editor.herokuapp.com/)
 
 ## Application Screenshot
-WHEN I open my application in my editor, THEN I should see a client server folder structure.
-![Application Screenshot](public/images/Homepage.png)
+- WHEN I open my application in my editor, THEN I see a client server folder structure.
+![Application Screenshot](asset/images/picture1.png)
 
-When you click the post title, it will bring you to the single post page, it shows the post information and comments. You can make a comment while logged in.
-![Application Screenshot 2](public/images/SingleBlog.png)
+- WHEN I run `npm run start` from the root directory, THEN I find that my application should start up the backend and serve the client. </br>
+WHEN I run the text editor application from my terminal, THEN I find that my JavaScript files have been bundled using webpack. </br>
+WHEN I run my webpack plugins, THEN I find that I have a generated HTML file, service worker, and a manifest file. </br>
+![Application Screenshot 2](asset/images/picture2.png)
 
-After you log in or sign up, it will bring you to the dashboard page directly.
-![Application Screenshot 3](public/images/login.png)
+- Here is the screenshot of the generated HTML, service worker and a manifest file.
+![Application Screenshot 3](asset/images/picture3.png)
 
-You can also click navigation link of "dashboard", it will bring you to the page. It shows all your posts, you can click "+ New Post" to add a new post. 
-![Application Screenshot 4](public/images/Dashboard.png)
+- WHEN I use next-gen JavaScript in my application, THEN I find that the text editor still functions in the browser without errors.
+![Application Screenshot 4](asset/images/picture4.png)
 
+- WHEN I open the text editor, THEN I find that IndexedDB has immediately created a database storage.</br>
+WHEN I enter content and subsequently click off of the DOM window, THEN I find that the content in the text editor has been saved with IndexedDB.</br>
+WHEN I reopen the text editor after closing it, THEN I find that the content in the text editor has been retrieved from our IndexedDB.</br>
+![Application Screenshot 5](asset/images/picture5.png)
+
+- WHEN I click on the Install button, THEN I download my web application as an icon on my desktop.
+![Application Screenshot 6](asset/images/picture6.png)
+
+- WHEN I load my web application, THEN I should have a registered service worker using workbox. </br>
+WHEN I register a service worker, THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets.
+![Application Screenshot 7](asset/images/picture7.png)
+
+- WHEN I deploy to Heroku, THEN I should have proper build scripts for a webpack application.
+![Application Screenshot 8](asset/images/picture8.png)
 
 ## Questions
 If you have any questions, you can find [my Github](https://github.com/PennyLIU2022) and reach me by email at: pennyliu806@gmail.com
