@@ -35,7 +35,7 @@ WHEN I run the text editor application from my terminal, THEN I find that my Jav
 WHEN I run my webpack plugins, THEN I find that I have a generated HTML file, service worker, and a manifest file. </br>
 ![Application Screenshot 2](asset/images/picture2.png)
 
-- Here is the screenshot of the generated HTML, service worker and a manifest file.
+- Here is the screenshot of the generated HTML, service worker and a manifest file.</br>
 ![Application Screenshot 3](asset/images/picture3.png)
 
 - WHEN I use next-gen JavaScript in my application, THEN I find that the text editor still functions in the browser without errors.
