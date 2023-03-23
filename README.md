@@ -48,10 +48,12 @@ WHEN I reopen the text editor after closing it, THEN I find that the content in 
 
 - WHEN I click on the Install button, THEN I download my web application as an icon on my desktop.
 ![Application Screenshot 6](asset/images/picture6.png)
+![Application Screenshot 6-1](asset/images/picture6-1.png)
 
 - WHEN I load my web application, THEN I should have a registered service worker using workbox. </br>
 WHEN I register a service worker, THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets.
 ![Application Screenshot 7](asset/images/picture7.png)
+![Application Screenshot 7-1](asset/images/picture7-1.png)
 
 - WHEN I deploy to Heroku, THEN I should have proper build scripts for a webpack application.
 ![Application Screenshot 8](asset/images/picture8.png)
